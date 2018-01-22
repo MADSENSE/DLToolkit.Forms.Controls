@@ -6,6 +6,7 @@ using System.Collections;
 using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Windows.Input;
+using PropertyChangingEventArgs = Xamarin.Forms.PropertyChangingEventArgs;
 
 namespace DLToolkit.Forms.Controls
 {
