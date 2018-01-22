@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DLToolkit.Forms.Controls.FlowListView", "FlowListView\DLToolkit.Forms.Controls.FlowListView\DLToolkit.Forms.Controls.FlowListView.csproj", "{AA188FD6-4D5A-4BAA-9055-9DFECC943225}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLToolkit.Forms.Controls.FlowListView", "FlowListView\DLToolkit.Forms.Controls.FlowListView\DLToolkit.Forms.Controls.FlowListView.csproj", "{AA188FD6-4D5A-4BAA-9055-9DFECC943225}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DLToolkit.Forms.Controls.TagEntryView", "TagEntryView\DLToolkit.Forms.Controls.TagEntryView\DLToolkit.Forms.Controls.TagEntryView.csproj", "{41CD9002-B025-41A2-A37C-C121BEADF62B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLToolkit.Forms.Controls.TagEntryView", "TagEntryView\DLToolkit.Forms.Controls.TagEntryView\DLToolkit.Forms.Controls.TagEntryView.csproj", "{41CD9002-B025-41A2-A37C-C121BEADF62B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{F3A9DC82-4F6F-4BA1-BCB8-29662D36B330}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DLToolkitControlsSamples", "Samples\DLToolkitControlsSamples\DLToolkitControlsSamples.csproj", "{824A9A23-F91C-4DD5-9C0B-8D1EE4F7E251}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLToolkitControlsSamples", "Samples\DLToolkitControlsSamples\DLToolkitControlsSamples.csproj", "{824A9A23-F91C-4DD5-9C0B-8D1EE4F7E251}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLToolkitControlsSamples.iOS", "Samples\iOS\DLToolkitControlsSamples.iOS.csproj", "{34D8A8BC-C10F-4D70-AB4C-DE90577D2B1E}"
 EndProject
@@ -28,13 +28,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLToolkit.Forms.Controls.Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLToolkit.Forms.Controls.RecyclerView.Android", "RecyclerView\DLToolkit.Forms.Controls.RecyclerView.Android\DLToolkit.Forms.Controls.RecyclerView.Android.csproj", "{C33CA06A-FA1D-4E60-AEC5-D1E6A324CA1E}"
 EndProject
-Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "DLToolkit.Forms.Controls.RecyclerView.NuGet", "RecyclerView\DLToolkit.Forms.Controls.RecyclerView.NuGet\DLToolkit.Forms.Controls.RecyclerView.NuGet.nuproj", "{619D2647-3D05-4011-BF84-492D389D90BE}"
+Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "DLToolkit.Forms.Controls.RecyclerView.NuGet", "RecyclerView\DLToolkit.Forms.Controls.RecyclerView.NuGet\DLToolkit.Forms.Controls.RecyclerView.NuGet.nuproj", "{619D2647-3D05-4011-BF84-492D389D90BE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DLToolkit.Forms.Controls.RecyclerView", "RecyclerView\DLToolkit.Forms.Controls.RecyclerView\DLToolkit.Forms.Controls.RecyclerView.csproj", "{51A68880-A43E-4CF8-A034-C70B2EF31BE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLToolkit.Forms.Controls.RecyclerView", "RecyclerView\DLToolkit.Forms.Controls.RecyclerView\DLToolkit.Forms.Controls.RecyclerView.csproj", "{51A68880-A43E-4CF8-A034-C70B2EF31BE6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DLToolkit.Forms.Controls.ImageCropView", "ImageCropView\DLToolkit.Forms.Controls.ImageCropView.csproj", "{E4E74594-E008-43EA-A836-BCC049F0E483}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLToolkit.Forms.Controls.ImageCropView", "ImageCropView\DLToolkit.Forms.Controls.ImageCropView.csproj", "{E4E74594-E008-43EA-A836-BCC049F0E483}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLToolkitControlsSamples.UWP", "Samples\DLToolkitControlsSamples.UWP\DLToolkitControlsSamples.UWP.csproj", "{146A54B8-3BD4-4743-B638-5199FFF76421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLToolkitControlsSamples.Mac", "Samples\DLToolkitControlsSamples.Mac\DLToolkitControlsSamples.Mac.csproj", "{D76C871C-D988-45C0-A065-1C6015B56863}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -313,6 +315,30 @@ Global
 		{146A54B8-3BD4-4743-B638-5199FFF76421}.Release|x86.ActiveCfg = Release|x86
 		{146A54B8-3BD4-4743-B638-5199FFF76421}.Release|x86.Build.0 = Release|x86
 		{146A54B8-3BD4-4743-B638-5199FFF76421}.Release|x86.Deploy.0 = Release|x86
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Debug|ARM.Build.0 = Debug|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Debug|x64.Build.0 = Debug|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Debug|x86.Build.0 = Debug|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Release|ARM.ActiveCfg = Release|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Release|ARM.Build.0 = Release|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Release|iPhone.Build.0 = Release|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Release|x64.ActiveCfg = Release|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Release|x64.Build.0 = Release|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Release|x86.ActiveCfg = Release|Any CPU
+		{D76C871C-D988-45C0-A065-1C6015B56863}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -326,6 +352,7 @@ Global
 		{619D2647-3D05-4011-BF84-492D389D90BE} = {46F0CF95-C8FD-4B7E-920D-A48C79E538DB}
 		{51A68880-A43E-4CF8-A034-C70B2EF31BE6} = {46F0CF95-C8FD-4B7E-920D-A48C79E538DB}
 		{146A54B8-3BD4-4743-B638-5199FFF76421} = {F3A9DC82-4F6F-4BA1-BCB8-29662D36B330}
+		{D76C871C-D988-45C0-A065-1C6015B56863} = {F3A9DC82-4F6F-4BA1-BCB8-29662D36B330}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7FEA6AA-35DC-4C61-AECE-C9ED937785CD}
